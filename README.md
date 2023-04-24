@@ -2,7 +2,7 @@
 
 The script allows the user to execute any command they want and easily display the results of that command. It opens a new process using the `proc_open()` function and configures pipes for returning the results. If the command is executed successfully, the output is displayed in a table format. Otherwise, the error message is displayed in red color.
 
-- Note : I have never used any of these functions `exec()`, `system()`, `passthru()`, `shell_exec()`
+- *Note* I have never used any of these functions : `exec()`, `system()`, `passthru()`, `shell_exec()`
 
 ## Functions used 
 
